@@ -45,7 +45,14 @@
                     @endif
                 </div>
 
-                <button type="submit" class="ui button">S'inscrire</button>
+                <div class="field">
+                    <div class="ui checkbox">
+                        <input type="checkbox" name="remember" id="remember">
+                        <label for="remember">Se souvenir de moi</label>
+                    </div>
+                </div>
+
+                <button type="submit" class="ui button">Se connecter</button>
             </form>
         </div>
     </div>
